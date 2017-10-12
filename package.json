@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "electron-tray-test",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "1.7.9"
+  },
+  "scripts": {
+    "test:none": "electron test-with-no-icon.js",
+    "test:string": "electron test-with-string.js",
+    "test:image": "electron test-with-native-image.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mysticatea/electron-tray-test.git"
+  },
+  "keywords": [],
+  "author": "Toru Nagashima (https://github.com/mysticatea)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mysticatea/electron-tray-test/issues"
+  },
+  "homepage": "https://github.com/mysticatea/electron-tray-test#readme"
+}
